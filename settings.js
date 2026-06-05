@@ -1,7 +1,7 @@
 const settings = {
-    "minecraft_version": "auto", // or specific version like "1.21.6"
-    "host": "127.0.0.1", // or "localhost", "your.ip.address.here"
-    "port": 55916, // set to -1 to automatically scan for open ports
+    "minecraft_version": "1.21.6", // or specific version like "1.21.6"
+    "host": "play.potatosmp.my.id", // or "localhost", "your.ip.address.here"
+    "port": 25565, // set to -1 to automatically scan for open ports
     "auth": "offline", // or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
@@ -46,8 +46,8 @@ const settings = {
     "code_timeout_mins": -1, // minutes code is allowed to run. -1 for no timeout
     "relevant_docs_count": 5, // number of relevant code function docs to select for prompting. -1 for all
 
-    "max_messages": 15, // max number of messages to keep in context
-    "num_examples": 2, // number of examples to give to the model
+    "max_messages": 10, // max number of messages to keep in context
+    "num_examples": 1, // number of examples to give to the model
     "max_commands": -1, // max number of commands that can be used in consecutive responses. -1 for no limit
     "show_command_syntax": "full", // "full", "shortened", or "none"
     "narrate_behavior": true, // chat simple automatic actions ('Picking up item!')
